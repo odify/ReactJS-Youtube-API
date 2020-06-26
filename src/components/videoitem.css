@@ -4,8 +4,7 @@
     cursor: pointer;
     border: 2px outset #fff;
 }
-
 .video-item.item img {
-    margin-left: 10%;
+    margin-left: 5%;
     max-width: 17vw;
 }

@@ -31,7 +31,7 @@ export const App = () => {
     return KEY === '' ? <h1>You need to update your API key...</h1> :
         <div className="ui-container">
             <div className="header-x">
-            <h1>XYZ</h1></div>
+            <h1>YouTube API &#128250;</h1></div>
             <SearchBar onSearchSubmit={onSearchSubmit} />
             <div className="ui grid">
                 <div className="ui row">

@@ -4,11 +4,20 @@ body{
     font-weight: 800;
     background-color: #191919;
     color: #fff;
+    display: flex;
 }
 .ui-container{
+    
     text-align: center;
+    border: 5px outset #fff;
 }
 .header-line{
     height: 1vh;
     background-color: #f25c27;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.header-x{
+    font-size: 2em;
+    text-shadow: 3px 2px 3.2px #000;
 }

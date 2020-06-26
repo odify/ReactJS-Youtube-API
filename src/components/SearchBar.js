@@ -17,7 +17,8 @@ export const SearchBar = ({onSearchSubmit}) => {
         <div className="search-bar ui segment">
             <form className="ui form" onSubmit={onFormSubmit}>
                 <div className="field">
-                    <label>Video Search</label>
+                    <label>Search:</label>
+                    <br></br>
                     <input type="text" placeholder="video search" value={searchTerm} onChange={searchTermHandler} />
                 </div>
                 <hr className="header-line"></hr>
