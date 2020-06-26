@@ -3,4 +3,12 @@ body{
     font-family: Fira Sans, serif;
     font-weight: 800;
     background-color: #191919;
+    color: #fff;
+}
+.ui-container{
+    text-align: center;
+}
+.header-line{
+    height: 1vh;
+    background-color: #f25c27;
 }

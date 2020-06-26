@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './style.css'
 
 
 export const SearchBar = ({onSearchSubmit}) => {
@@ -13,6 +13,7 @@ export const SearchBar = ({onSearchSubmit}) => {
         onSearchSubmit(searchTerm)
     }
     return (
+      
         <div className="search-bar ui segment">
             <form className="ui form" onSubmit={onFormSubmit}>
                 <div className="field">

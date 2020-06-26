@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './style.css'
 import youtube, { KEY } from '../api/youtube'
 
 
@@ -29,7 +29,9 @@ export const App = () => {
     }
 
     return KEY === '' ? <h1>You need to update your API key...</h1> :
-        <div className="ui container">
+        <div className="ui-container">
+            <div className="header-x">
+            <h1>XYZ</h1></div>
             <SearchBar onSearchSubmit={onSearchSubmit} />
             <div className="ui grid">
                 <div className="ui row">
